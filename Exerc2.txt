@@ -1,0 +1,21 @@
+2)
+import 'dart:io';
+
+main() {
+  
+ int soma; 
+  
+ print ("Digite o lado do quadrado:");
+  
+ var lado= int.parse(stdin.readLineSync());
+   
+ var area= int.parse(stdin.readLineSync());
+ 
+ soma= lado*lado;
+ 
+ print ("O lado do quadrado é de: &lado ");
+ 
+ print ("A area do quadrado é de: &soma");
+
+}
+

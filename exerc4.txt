@@ -1,0 +1,27 @@
+4)
+import 'dart:io';
+
+main() {
+  
+ int S; 
+  
+ print ("Digite a altura:");
+  
+ var A= int.parse(stdin.readLineSync());
+ 
+print ("Digite a Base:");
+   
+ var B= int.parse(stdin.readLineSync());
+ 
+ S=(b*a)/2;
+ 
+ print ("a area é de: &S");
+ 
+ }
+
+
+
+
+
+
+

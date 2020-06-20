@@ -1,0 +1,23 @@
+
+import 'dart:io';
+main() {
+    
+ int media; 
+ print ("Aprovado");
+ print ("Digite sua primeira nota:");
+ var nota1= int.parse(stdin.readLineSync());
+ print ("Digite sua segunda nota:");
+ var nota2= int.parse(stdin.readLineSync());
+ media=nota1+nota2/2;
+ print ("Sua media é: &media ");
+ double nota; 
+ nota= 7.5; 
+ if (nota <5)
+ print ("Reprovado");
+ else if ((nota >=5)&&(nota<7))
+ print ("Recuperaçao");
+ else 
+ print ("Aprovado");
+ 
+
+}

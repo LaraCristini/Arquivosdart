@@ -1,0 +1,120 @@
+1)
+import 'dart:io' ;
+ 
+main(){
+ 
+ print ("Digite seu nome:");  
+
+  final nome=stdin.readLineSync();
+ 
+ print ("Digite sua idade:");
+ 
+ final idade= stdin.readLineSync();
+
+  print ("O nome digitado foi: $nome");
+ 
+  print ("A idade digitada foi: $idade");
+ 
+ 
+}
+
+
+
+2)
+import 'dart:io';
+
+main() {
+  
+ int soma; 
+  
+ print ("Digite o lado do quadrado:");
+  
+ var lado= int.parse(stdin.readLineSync());
+   
+ var area= int.parse(stdin.readLineSync());
+ 
+ soma= lado*lado;
+ 
+ print ("O lado do quadrado é de: &lado ");
+ 
+ print ("A area do quadrado é de: &soma");
+
+}
+
+
+
+3)
+import 'dart:io';
+main() {
+    
+ int media; 
+ print ("Aprovado");
+ print ("Digite sua primeira nota:");
+ var nota1= int.parse(stdin.readLineSync());
+ print ("Digite sua segunda nota:");
+ var nota2= int.parse(stdin.readLineSync());
+ media=nota1+nota2/2;
+ print ("Sua media é: &media ");
+ double nota; 
+ nota= 7.5; 
+ if (nota <5)
+ print ("Reprovado");
+ else if ((nota >=5)&&(nota<7))
+ print ("Recuperaçao");
+ else 
+ print ("Aprovado");
+ 
+
+}
+4)
+import 'dart:io';
+
+main() {
+  
+ int S; 
+  
+ print ("Digite a altura:");
+  
+ var A= int.parse(stdin.readLineSync());
+ 
+print ("Digite a Base:");
+   
+ var B= int.parse(stdin.readLineSync());
+ 
+ S=(b*a)/2;
+ 
+ print ("a area é de: &S");
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
